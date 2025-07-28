@@ -3,7 +3,9 @@ module github.com/Alena02cactus/Telegram-bot_for_meal-planing.git
 go 1.24.5
 
 require (
+	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
+	github.com/go-sql-driver/mysql v1.9.3 // indirect
 	github.com/go-telegram-bot-api/telegram-bot-api/v5 v5.5.1 // indirect
 	github.com/go-viper/mapstructure/v2 v2.2.1 // indirect
 	github.com/golang-migrate/migrate/v4 v4.18.3 // indirect
