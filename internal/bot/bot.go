@@ -34,10 +34,14 @@ func (b *NutritionBot) Start() {
 		}
 
 		switch update.Message.Text {
-		case "/start":
+        case "/start":
 			b.handleStart(update)
+        case "/plan":
+			b.handlePlan(update)  
 		default:
 			b.handleText(update)
+	
+
 		}
 	}
 }
